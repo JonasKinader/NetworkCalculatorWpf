@@ -33,4 +33,6 @@ public class NetworkDetail
         Erfolgreich = erfolgreich;
         FehlerString = fehlerstring;
     }
+
+    
 }
