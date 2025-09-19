@@ -33,8 +33,8 @@
 
             <Label Grid.Row="1" Grid.Column="1" Background="LightGray" >Adresse</Label>
             <Label Grid.Row="1" Grid.Column="3" Background="LightGray" >CIDR-Suffix</Label>
-            <Label Grid.Row="3" Grid.Column="1" Background="LightGray" ></Label>
-            <Label Grid.Row="3" Grid.Column="3" Background="LightGray" ></Label>
+            <Label x:Name="txtAddress" Grid.Row="3" Grid.Column="1" Background="LightGray" ></Label>
+            <Label x:Name="txtCidr" Grid.Row="3" Grid.Column="3" Background="LightGray" ></Label>
         </Grid>
 
         <Grid Grid.Row="1">
@@ -49,7 +49,7 @@
             <Button x:Name="BtnNeu" Grid.Column="0"  Click="BtnNeu_Click" >Neu</Button>
             <Button x:Name="BtnZuf" Grid.Column="1"  Click="BtnZuf_Click" >Zufällige Adresse</Button>
             <Button x:Name="BtnBsp" Grid.Column="2"  Click="BtnBsp_Click" >Beispiel</Button>
-            <Button x:Name="BtnBerechnen" Grid.Column="3"  Click="Button_Click" >Berechnen</Button>
+            <Button x:Name="BtnBerechnen" Grid.Column="3"  Click="RechneButton_Click" >Berechnen</Button>
             <Button x:Name="BtnBeenden" Grid.Column="4"  Click="BtnBeenden_Click" >Beenden</Button>
         </Grid>
 
