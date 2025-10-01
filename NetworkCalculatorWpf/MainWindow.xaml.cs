@@ -23,7 +23,8 @@ public partial class MainWindow : Window
 
     private void BtnNeu_Click(object sender, RoutedEventArgs e)
     {
-        txtAddress.TextInput = " ";
+        txtAddress.Text = "";
+        txtCidr.Text = "";
     }
 
     private void BtnZuf_Click(object sender, RoutedEventArgs e)
@@ -33,7 +34,7 @@ public partial class MainWindow : Window
 
     private void BtnBsp_Click(object sender, RoutedEventArgs e)
     {
-
+        txtCidr
     }
 
     private void RechneButton_Click(object sender, RoutedEventArgs e)
